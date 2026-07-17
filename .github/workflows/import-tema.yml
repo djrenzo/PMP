@@ -85,7 +85,10 @@ jobs:
             NAME=$(echo "$VIDEO" | jq -r '.name')
             URL=$(echo "$VIDEO" | jq -r '.url')
 
-            SAFE_NAME=$(echo "$NAME" | iconv -t ascii//TRANSLIT | sed 's#[^A-Za-z0-9._-]#_#g')
+            SAFE_NAME=$(echo "$NAME" \
+              | iconv -t ascii//TRANSLIT \
+              | sed 's#\.##g; s#[^A-Za-z0-9_-]#_#g')
+              
             FILE="${SAFE_NAME}.mp4"
 
             if grep -Fxq "$FILE" existing_assets.txt; then

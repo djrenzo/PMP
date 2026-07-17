@@ -15,6 +15,7 @@ def safe_filename(name):
 
     name = unicodedata.normalize("NFKD", name)
     name = name.encode("ascii", "ignore").decode("ascii")
+    name = name.replace(".", "")
     name = re.sub(r"[^A-Za-z0-9._-]", "_", name)
     return name + ".mp4"
 
