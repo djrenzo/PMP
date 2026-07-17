@@ -1,0 +1,437 @@
+[
+  {
+    "category": "Jornada 0",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Video Jornada 0.- Presentación del campus",
+            "url": "https://github.com/djrenzo/PMP/releases/download/Jornada-0-Tema-1/Video_Jornada_0.-_Presentacion_del_campus.mp4"
+          },
+          {
+            "name": "Estructura del Curso de Prepación de la Certificación PMP-PMI",
+            "url": "https://github.com/djrenzo/PMP/releases/download/Jornada-0-Tema-1/Estructura_del_Curso_de_Prepacion_de_la_Certificacion_PMP-PMI.mp4"
+          },
+          {
+            "name": "Presentación del Docente",
+            "url": "https://github.com/djrenzo/PMP/releases/download/Jornada-0-Tema-1/Presentacion_del_Docente.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Parte I",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Video 1.0. Presentacion Tema 1 PMBOK 8 Novedades",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA1.%20ESTANDAR/Presentacion%20video%20PMBOK%208%20Novedades.mp4"
+          },
+          {
+            "name": "Video 1.1. La Guía del PMBOK. Principales Cambios en PmBok 8.",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA1.%20ESTANDAR/Video%20%201.1%20Cambios%20en%20PmBok8..mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 2",
+        "videos": [
+          {
+            "name": "Video 2.1. Estándar Sección 1. Proyecto y Dirección de Proyectos. Creación de Valor",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA2.%20ESTANDAR%20SECCION1/Video%20%202.1.%20Estandar%20seccion%201.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 2.2. Estándar Sección 1. Éxito y Gobernanza del Proyecto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA2.%20ESTANDAR%20SECCION1/Video%20%202.2.%20Estandar%20seccion%201.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 2.3. Estándar Sección 1. Relación entre Portafolios, Programas, Proyectos y Operaciones",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA2.%20ESTANDAR%20SECCION1/Video%20%202.3.%20Estandar%20seccion%201.%20Parte%203.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 3",
+        "videos": [
+          {
+            "name": "Video 3.1. Estándar Sección 2. Entrega de Valor. Activos y Factores Ambientales.",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA3.%20ESTANDAR%20SECCION2/Video%20%203.1.%20Estandar%20seccion%201.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 3.2. Estándar Sección 2. Estructuras Organizaciones y Ciclo de Vida del Producto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA3.%20ESTANDAR%20SECCION2/Video%20%203.2.%20Estandar%20seccion%202.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 3.3. Estándar Sección 2. Supervisión, Coordinación y Retroalimentación",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA3.%20ESTANDAR%20SECCION2/Video%20%203.3.%20Estandar%20seccion%202.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 3.4. Estándar Sección 2. Roles en la Dirección de Proyectos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA3.%20ESTANDAR%20SECCION2/Video%20%203.4.%20Estandar%20seccion%202.%20Parte%204.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 4",
+        "videos": [
+          {
+            "name": "Video 4.1. Estándar Sección 3. Principios y Dominios de Desempeño",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA4.%20ESTANDAR%20SECCION3/Video%20%204.1.%20Estandar%20seccion%203.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 4.2. Estándar Sección 3. Visión Holística y Enfocarse en el Valor",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA4.%20ESTANDAR%20SECCION3/Video%20%204.2.%20Estandar%20seccion%203.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 4.3. Estándar Sección 3. Incorporar la Calidad y Liderazgo Responsable",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA4.%20ESTANDAR%20SECCION3/Video%20%204.3.%20Estandar%20seccion%203.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 4.4. Estándar Sección 3. Sostenibilidad y Cultura Empoderada.",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA4.%20ESTANDAR%20SECCION3/Video%20%204.4.%20Estandar%20seccion%203.%20Parte%204.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 5",
+        "videos": [
+          {
+            "name": "Video 5.1. Estándar Sección 4. Ciclos de Vida, Características",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA5.%20ESTANDAR%20SECCION4/Video%20%205.1%20Estandar%20seccion%204.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 5.2. Estándar Sección 4. Enfoques de Desarrollo",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA5.%20ESTANDAR%20SECCION4/Video%20%205.2%20Estandar%20seccion%204.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 5.3. Estándar Sección 4. Enfoques de Desarollo II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA5.%20ESTANDAR%20SECCION4/Video%20%205.3%20Estandar%20seccion%204.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 5.4. Estándar Sección 4. Áreas de Enfoque",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20I/TEMA5.%20ESTANDAR%20SECCION4/Video%20%205.4%20Estandar%20seccion%204.%20Parte%204.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Parte II",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Video 1.0.- Cuadro de Procesos, así lo analizaremos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA1/Video%201.0.%20%20Cuadro%20de%20Procesos.%20como%20lo%20analizaremos.mp4"
+          },
+          {
+            "name": "Video 1.1. Dominios de Desempeño",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA1/Video%201.1.%20Guia%20Seccion%201.%20Parte%201.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 2",
+        "videos": [
+          {
+            "name": "Video 2.1. Gobernanza. Parte 1",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.1.%20Guia%20Seccion%202.1.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 2.2. Gobernanza. Parte 2",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.2.%20Guia%20Seccion%202.1.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 2.3. Iniciar Proyecto o Fase",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.3.%20Guia%20Seccion%202.1.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 2.4. Integrar y Alinear los Planes del Proceso",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.4.%20Guia%20Seccion%202.1.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 2.5. Planificar la estrategia de aprovisionamiento",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.5.%20Guia%20Seccion%202.1.%20Parte%205.mp4"
+          },
+          {
+            "name": "Video 2.6. Gestionar la ejecución del proyecto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.6.%20Guia%20Seccion%202.1.%20Parte%206.mp4"
+          },
+          {
+            "name": "Video 2.7. Gestionar el Aseguramiento de la Calidad",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.7.%20Guia%20Seccion%202.1.%20Parte%207.mp4"
+          },
+          {
+            "name": "Video 2.8. Gestionar el conocimiento del Proyecto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.8.%20Guia%20Seccion%202.1.%20Parte%208.mp4"
+          },
+          {
+            "name": "Video 2.9. Monitorerar y Controlar el Desempeño del Proyecto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.9.%20Guia%20Seccion%202.1.%20Parte%209.mp4"
+          },
+          {
+            "name": "Video 2.10. Introducción a la Gestión del Valor Ganado",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.10.%20Guia%20Seccion%202.1.%20Parte%2010.mp4"
+          },
+          {
+            "name": "Video 2.11. Monitorerar y Controlar el Desempeño del Proyecto II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.11.%20Guia%20Seccion%202.1.%20Parte%2011.mp4"
+          },
+          {
+            "name": "Video 2.12. Evaluar e Implementar Cambios",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.12.%20Guia%20Seccion%202.1.%20Parte%2012.mp4"
+          },
+          {
+            "name": "Video 2.13. Cerrar Proyecto o Fase",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA2.%20GOBERNANZA/Video%202.13.%20Guia%20Seccion%202.1.%20Parte%2013.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 3",
+        "videos": [
+          {
+            "name": "Video 3.1. Dominio de Desempeño de los Interesados",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.1.%20Guia%20Seccion%202.2.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 3.2. Indentificar a los Interesados",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.2.%20Guia%20Seccion%202.2.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 3.3. Planificar la Participación de los Interesados",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.3.%20Guia%20Seccion%202.2.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 3.4. Planificar la Gestión de las Comunicaciones",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.4.%20Guia%20Seccion%202.2.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 3.5. Gestionar la Participación de los Interesados",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.5.%20Guia%20Seccion%202.2.%20Parte%205.mp4"
+          },
+          {
+            "name": "Video 3.6. Gestionar la Participación de los Interesados Parte II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.6.%20Guia%20Seccion%202.2.%20Parte%206.mp4"
+          },
+          {
+            "name": "Video 3.7. Gestionar las Comunicaciones del Proyecto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.7.%20Guia%20Seccion%202.2.%20Parte%207.mp4"
+          },
+          {
+            "name": "Video 3.8. Monitorear la Participación de los Interesados",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA3.%20INTERESADOS/Video%203.8.%20Guia%20Seccion%202.2.%20Parte%208.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 4",
+        "videos": [
+          {
+            "name": "Video 4.1. Dominio de Desempeño del Alcance",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.1.%20Guia%20Seccion%202.3.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 4.2. Planificar la Gestión del Alcance",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.2.%20Guia%20Seccion%202.3.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 4.3. Recopilar y Analizar Requisitos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.3.%20Guia%20Seccion%202.3.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 4.4. Definir el Alcance",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.4.%20Guia%20Seccion%202.3.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 4.5. Monitorear y Controlar el Alcance",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.5.%20Guia%20Seccion%202.3.%20Parte%205.mp4"
+          },
+          {
+            "name": "Video 4.6. Validar el Alcance",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA4.%20ALCANCE/Video%204.6.%20Guia%20Seccion%202.3.%20Parte%206.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 5",
+        "videos": [
+          {
+            "name": "Video 5.1. Dominio de Desempeño del Cronograma",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.1.%20Guia%20Seccion%202.4.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 5.2. Planificar la Gestión del Cronograma y Desarrollar el Cronograma I",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.2.%20Guia%20Seccion%202.4.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 5.3. Desarrollar el Cronograma II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.3.%20Guia%20Seccion%202.4.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 5.4. Desarrollar el Cronograma III",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.4.%20Guia%20Seccion%202.4.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 5.5. Desarrollar el Cronograma IV",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.5.%20Guia%20Seccion%202.4.%20Parte%205.mp4"
+          },
+          {
+            "name": "Video 5.6. Monitorear y Controlar el Cronograma",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA5.%20CRONOGRAMA/Video%205.6.%20Guia%20Seccion%202.4.%20Parte%206.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 6",
+        "videos": [
+          {
+            "name": "Video 6.1. Dominio de Desempeño Finanzas, Conceptos Clave",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA6.%20FINANZAS/Video%206.1.%20Guia%20Seccion%202.5.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 6.2. Planificar la Gestión Financiera y Estimar los Costes",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA6.%20FINANZAS/Video%206.2.%20Guia%20Seccion%202.5.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 6.3. Estimar los Costes II y Desarrollar el Presupuesto",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA6.%20FINANZAS/Video%206.3.%20Guia%20Seccion%202.5.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 6.4. Monitorear y Controlar las Finanzas",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA6.%20FINANZAS/Video%206.4.%20Guia%20Seccion%202.5.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video Jornada 6.5.1.- La Gestión del Valor Ganado (Parte 1)",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Videos%20PMP/Video%20Capítulo%206.5.1.-%20Valor%20Ganado%20(Parte%201)%20FINAL.mp4"
+          },
+          {
+            "name": "Video Jornada 6.5.2.- La Gestión del Valor Ganado (Parte 2)",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Videos%20PMP/Video%20Capítulo%206.5.2.-%20Valor%20Ganado%20(Parte%202)%20FINAL.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 7",
+        "videos": [
+          {
+            "name": "Video 7.1. Dominio de los Recursos - Conceptos Clave",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.1.%20Guia%20Seccion%202.6.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 7.2. Planificar la Gestión de los Recursos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.2.%20Guia%20Seccion%202.6.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 7.3. Planificar la Gestión de los Recursos II y Estimar los Recursos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.3.%20Guia%20Seccion%202.6.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 7.4. Adquirir los Recursos y Liderar al Equipo",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.4.%20Guia%20Seccion%202.6.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 7.5. Liderar al Equipo II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.5.%20Guia%20Seccion%202.6.%20Parte%205.mp4"
+          },
+          {
+            "name": "Video 7.6. Etapas de Tuckman de Formación y Monitorización de los Recursos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Video%207.6.%20Guia%20Seccion%202.6.%20Parte%206.mp4"
+          },
+          {
+            "name": "Repaso principales teorías de motivación",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA7.%20RECURSOS/Repaso%20principales%20teorias%20de%20motivacion.mp4"
+          }
+        ]
+      },
+      {
+        "name": "Tema 8",
+        "videos": [
+          {
+            "name": "Video 8.1. Dominio de los Riesgos. Conceptos Clave",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Video%208.1.%20Guia%20Seccion%202.7.%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 8.2. Planificar los Riesgos e Identificar los Riesgos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Video%208.2.%20Guia%20Seccion%202.7.%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 8.3. Identificar los Riesgos II y Planificar la Respuesta a los Riesgos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Video%208.3.%20Guia%20Seccion%202.7.%20Parte%203.mp4"
+          },
+          {
+            "name": "Video 8.4. Planificar la Respuesta a los Riesgos II",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Video%208.4.%20Guia%20Seccion%202.7.%20Parte%204.mp4"
+          },
+          {
+            "name": "Video 8.5. Implementar la Respuesta a los Riesgos y Monitorear los Riesgos",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Video%208.5.%20Guia%20Seccion%202.7.%20Parte%205.mp4"
+          },
+          {
+            "name": "Resumen de Riesgos, Los dos Pilares, Amenazas y Oportunidades",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20II/TEMA8.%20RIESGOS/Resumen%20Riesgos,%20los%20dos%20pilares.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Parte III",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Video 1.1. Adaptación Sección 3 Parte 1",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20III/TEMA1.%20ADAPTACION/Video%201.1.%20Adaptacion%20Seccion%203%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 1.2. Adaptación Sección 3 Parte 2",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20III/TEMA1.%20ADAPTACION/Video%201.2.%20Adaptacion%20Seccion%203%20Parte%202.mp4"
+          },
+          {
+            "name": "Video 1.3. Adaptación Sección 3 Parte 3",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/PARTE%20III/TEMA1.%20ADAPTACION/Video%201.3.%20Adaptacion%20Seccion%203%20Parte%203.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "ANEXO IA",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Video 1.1. Anexo IA Parte 1",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/ANEXO%20IA/Video%201.1.%20Anexo%20IA%20Parte%201.mp4"
+          },
+          {
+            "name": "Video 1.2. Anexo IA Parte 2",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/ANEXO%20IA/Video%201.2.%20Anexo%20IA%20Parte%202.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "FIN DEL MODULO Y OBTENCION DIPLOMA",
+    "temas": [
+      {
+        "name": "Tema 1",
+        "videos": [
+          {
+            "name": "Actualiza tu CV en LinkedIn, carga tus certificaciones y diplomas",
+            "url": "https://campus.eigp.net/recursos/video/Videos/Generales/cargar%20tus%20certificaciones%20y%20diplomas%20del%20Campus%20a%20LinkedIn.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]
