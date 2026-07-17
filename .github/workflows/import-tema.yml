@@ -6,7 +6,7 @@ on:
       json_file:
         description: JSON file path
         required: true
-        default: html-links.json
+        default: html_links.json
         type: string
 
       category:
