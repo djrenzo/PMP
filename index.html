@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download Tema 1</title>
+
+<style>
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 12px 20px;
+}
+
+#status {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
+</style>
+</head>
+<body>
+
+<h1>Tema 1</h1>
+
+<button id="downloadBtn">
+    Download ZIP
+</button>
+
+<div id="status"></div>
+
+<script>
+const PARTS = [
+    "https://files.catbox.moe/e0yn22.zip",
+    "https://files.catbox.moe/amjsd6.zip"
+];
+
+const OUTPUT_NAME = "0 - Jornada 0-Tema 1.zip";
+
+const status = document.getElementById("status");
+
+function log(msg) {
+    status.textContent += msg + "\n";
+}
+
+document.getElementById("downloadBtn").addEventListener("click", async () => {
+
+    try {
+
+        status.textContent = "";
+
+        log("Downloading parts...");
+
+        const buffers = [];
+
+        for (let i = 0; i < PARTS.length; i++) {
+
+            log(`Downloading part ${i + 1}/${PARTS.length}`);
+
+            const response = await fetch(PARTS[i]);
+
+            if (!response.ok) {
+                throw new Error(
+                    `Failed downloading part ${i + 1}`
+                );
+            }
+
+            buffers.push(await response.arrayBuffer());
+        }
+
+        log("Merging parts...");
+
+        const zipBlob = new Blob(buffers, {
+            type: "application/zip"
+        });
+
+        log(`Merged size: ${(zipBlob.size / 1024 / 1024).toFixed(1)} MB`);
+
+        const url = URL.createObjectURL(zipBlob);
+
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = OUTPUT_NAME;
+
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        setTimeout(() => URL.revokeObjectURL(url), 10000);
+
+        log("Done. Download should start automatically.");
+
+    } catch (err) {
+        console.error(err);
+        log("ERROR: " + err.message);
+    }
+
+});
+</script>
+
+</body>
+</html>
