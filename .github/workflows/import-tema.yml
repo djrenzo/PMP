@@ -85,7 +85,7 @@ jobs:
             NAME=$(echo "$VIDEO" | jq -r '.name')
             URL=$(echo "$VIDEO" | jq -r '.url')
 
-            SAFE_NAME=$(echo "$NAME" | sed 's#[^A-Za-z0-9._-]#_#g')
+            SAFE_NAME=$(echo "$NAME" | iconv -t ascii//TRANSLIT | sed 's#[^A-Za-z0-9._-]#_#g')
             FILE="${SAFE_NAME}.mp4"
 
             if grep -Fxq "$FILE" existing_assets.txt; then
@@ -135,81 +135,13 @@ jobs:
       
       - name: Update manifest.json
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-
-          RELEASE="${{ steps.vars.outputs.tag }}"
-
-          OWNER="${{ github.repository_owner }}"
-          REPO="${{ github.event.repository.name }}"
-
-          python3 << 'PY'
-          import json
-          import os
-          import urllib.parse
-
-          category = os.environ["CATEGORY"]
-          tema = os.environ["TEMA"]
-          release = os.environ["RELEASE"]
-          owner = os.environ["OWNER"]
-          repo = os.environ["REPO"]
-
-          with open("${{ inputs.json_file }}", "r", encoding="utf-8") as f:
-              source = json.load(f)
-
-          manifest_path = "manifest.json"
-
-          if os.path.exists(manifest_path):
-              with open(manifest_path, "r", encoding="utf-8") as f:
-                  manifest = json.load(f)
-          else:
-              manifest = source
-
-          for cat in manifest:
-              if cat["category"] != category:
-                  continue
-
-              for t in cat["temas"]:
-                  if t["name"] != tema:
-                      continue
-
-                  for video in t["videos"]:
-                      filename = (
-                          video["name"]
-                          .replace(" ", "_")
-                          .replace("/", "_")
-                          .replace("\\", "_")
-                          .replace(":", "_")
-                          .replace("*", "_")
-                          .replace("?", "_")
-                          .replace('"', "_")
-                          .replace("<", "_")
-                          .replace(">", "_")
-                          .replace("|", "_")
-                      ) + ".mp4"
-
-                      encoded = urllib.parse.quote(filename)
-
-                      video["url"] = (
-                          f"https://github.com/"
-                          f"{owner}/{repo}/releases/download/"
-                          f"{release}/{encoded}"
-                      )
-
-          with open(manifest_path, "w", encoding="utf-8") as f:
-              json.dump(
-                  manifest,
-                  f,
-                  ensure_ascii=False,
-                  indent=2
-              )
-          PY
-            env:
-              CATEGORY: ${{ inputs.category }}
-              TEMA: ${{ inputs.tema }}
-              RELEASE: ${{ steps.vars.outputs.tag }}
-              OWNER: ${{ github.repository_owner }}
-              REPO: ${{ github.event.repository.name }}
+          CATEGORY: ${{ inputs.category }}
+          TEMA: ${{ inputs.tema }}
+          RELEASE: ${{ steps.vars.outputs.tag }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          JSON_FILE: ${{ inputs.json_file }}
+        run: python update_manifest.py
 
       - name: Commit manifest
         run: |
