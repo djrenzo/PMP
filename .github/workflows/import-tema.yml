@@ -1,0 +1,159 @@
+name: Import Tema
+
+on:
+  workflow_dispatch:
+    inputs:
+      json_file:
+        description: JSON file path
+        required: true
+        default: html_links.json
+        type: string
+
+      category:
+        description: Category name
+        required: true
+        type: string
+
+      tema:
+        description: Tema name
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Prepare release tag
+        id: vars
+        run: |
+          TAG=$(echo "${{ inputs.category }}-${{ inputs.tema }}" | sed 's#[^a-zA-Z0-9._-]#-#g')
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Create release if missing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view "${{ steps.vars.outputs.tag }}" >/dev/null 2>&1 || \
+          gh release create \
+            "${{ steps.vars.outputs.tag }}" \
+            --title "${{ inputs.category }} - ${{ inputs.tema }}"
+
+      - name: Get existing assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view \
+            "${{ steps.vars.outputs.tag }}" \
+            --json assets \
+            --jq '.assets[].name' \
+            > existing_assets.txt || true
+
+          echo "Existing assets:"
+          cat existing_assets.txt || true
+
+      - name: Download missing videos only
+        run: |
+          mkdir -p assets
+
+          CATEGORY='${{ inputs.category }}'
+          TEMA='${{ inputs.tema }}'
+          JSON='${{ inputs.json_file }}'
+
+          jq -c \
+            --arg category "$CATEGORY" \
+            --arg tema "$TEMA" \
+            '.[] |
+              select(.category == $category) |
+              .temas[] |
+              select(.name == $tema) |
+              .videos[]' \
+            "$JSON" |
+          while read VIDEO
+          do
+
+            NAME=$(echo "$VIDEO" | jq -r '.name')
+            URL=$(echo "$VIDEO" | jq -r '.url')
+
+            SAFE_NAME=$(echo "$NAME" \
+              | iconv -t ascii//TRANSLIT \
+              | sed 's#\.##g; s#[^A-Za-z0-9_-]#_#g')
+              
+            FILE="${SAFE_NAME}.mp4"
+
+            if grep -Fxq "$FILE" existing_assets.txt; then
+              echo "Already uploaded, skipping download:"
+              echo "$FILE"
+              continue
+            fi
+
+            echo "Downloading:"
+            echo "$FILE"
+
+            curl \
+              -L \
+              --fail \
+              --retry 5 \
+              --retry-delay 5 \
+              --retry-all-errors \
+              "$URL" \
+              -o "assets/$FILE"
+
+          done
+
+      - name: Upload new assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+
+          RELEASE="${{ steps.vars.outputs.tag }}"
+
+          shopt -s nullglob
+
+          FILES=(assets/*)
+
+          if [ ${#FILES[@]} -eq 0 ]; then
+            echo "No new files to upload."
+            exit 0
+          fi
+
+          for FILE in "${FILES[@]}"
+          do
+            echo "Uploading $(basename "$FILE")"
+
+            gh release upload \
+              "$RELEASE" \
+              "$FILE"
+          done
+      
+      - name: Update manifest.json
+        env:
+          CATEGORY: ${{ inputs.category }}
+          TEMA: ${{ inputs.tema }}
+          RELEASE: ${{ steps.vars.outputs.tag }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          JSON_FILE: ${{ inputs.json_file }}
+        run: python update_manifest.py
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add manifest.json
+
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Update manifest for ${{ inputs.category }} / ${{ inputs.tema }}"
+          git push
