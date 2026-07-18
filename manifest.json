@@ -410,11 +410,11 @@
         "videos": [
           {
             "name": "Video 1.1. Anexo IA Parte 1",
-            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/ANEXO%20IA/Video%201.1.%20Anexo%20IA%20Parte%201.mp4"
+            "url": "https://github.com/djrenzo/PMP/releases/download/ANEXO-IA-Tema-1/Video_11_Anexo_IA_Parte_1.mp4"
           },
           {
             "name": "Video 1.2. Anexo IA Parte 2",
-            "url": "https://campus.eigp.net/recursos/video/Videos/Fundamentos%202026/ANEXO%20IA/Video%201.2.%20Anexo%20IA%20Parte%202.mp4"
+            "url": "https://github.com/djrenzo/PMP/releases/download/ANEXO-IA-Tema-1/Video_12_Anexo_IA_Parte_2.mp4"
           }
         ]
       }
